@@ -37,3 +37,12 @@ def connect():
 
 if __name__ == "__main__":
 	app.run()
+ 
+
+ 
+""" 	docker run \
+		--rm \
+		--name flask \
+		-e POSTGRES_HOST='postgresql://neondb_owner:npg_KHzhrs94JXLv@ep-calm-shape-a25bh4h5-pooler.eu-central-1.aws.neon.tech/neondb?sslmode=require' \
+		-p 5000:5000 \
+		patrik277/zct_25_cv8 """
