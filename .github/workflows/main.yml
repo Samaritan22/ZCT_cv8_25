@@ -28,4 +28,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: patrik277/zct_25_cv8
+          tags: zct_25_cv8
